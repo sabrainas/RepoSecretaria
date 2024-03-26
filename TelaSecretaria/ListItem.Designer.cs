@@ -65,6 +65,7 @@
             // botaoDeferir
             // 
             this.botaoDeferir.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.botaoDeferir.FlatAppearance.BorderSize = 0;
             this.botaoDeferir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.botaoDeferir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botaoDeferir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -74,10 +75,12 @@
             this.botaoDeferir.TabIndex = 2;
             this.botaoDeferir.Text = "Deferir";
             this.botaoDeferir.UseVisualStyleBackColor = false;
+            this.botaoDeferir.Click += new System.EventHandler(this.botaoDeferir_Click);
             // 
             // botaoIndeferir
             // 
             this.botaoIndeferir.BackColor = System.Drawing.Color.Brown;
+            this.botaoIndeferir.FlatAppearance.BorderSize = 0;
             this.botaoIndeferir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.botaoIndeferir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botaoIndeferir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
