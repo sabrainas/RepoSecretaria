@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "T1xsxTtSiMJF2P/qDiVHRKeJX5x2m1iAGIxH28H4W/cHQcrrmJw43LdM/9gHddroFsCm3dVYYTgtd+oX977XTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wrmri\\OneDrive\\Documentos\\FATEC\\LINGUAGEM DE PROGRAMAÇÃO\\safire\\FormularioAlunos\\FormularioAlunos\\FormularioAlunos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wrmri\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\wrmri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\wrmri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\wrmri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

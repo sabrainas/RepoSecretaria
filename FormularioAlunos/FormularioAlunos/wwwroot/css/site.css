@@ -1,0 +1,64 @@
+::selection{
+  background-color: #666666;
+  color: #ffffff;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  /* background: #f8f8f8 url('https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/07/bg_cinza-right-62e1426c08f60.png') no-repeat bottom right fixed */
+  /* background:#666666 url('https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/07/bg_cinza-right-62e1426c08f60.png') no-repeat bottom right fixed */
+  background:#7E0000 url('https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/07/bg_cinza-right-62e1426c08f60.png') no-repeat bottom right fixed
+}
+
+/* header */
+.header-form{
+  background-color: #FFF;
+  width: 100%;
+}
+
+.logo-fatec {
+  margin-top: 50px;
+}
+
+/* form  */
+.title-form{
+  color: #005C6D;
+}
+
+.btn{
+  background-color: #7E0000;
+  color: #fff;
+}
+
+.btn:hover{
+  background-color: #B20000;
+  color: #fff;
+}
+
+.fundo-form{
+  background-color: #E6E6E6;
+}
+
+form{
+  font-weight: 500;
+}
+
+.img-topo img {
+  max-width: 100%;
+  height: auto;
+}

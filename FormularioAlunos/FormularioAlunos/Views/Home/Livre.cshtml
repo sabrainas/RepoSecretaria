@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Formulario Passe Livre";
+}
+
+<link rel="stylesheet" href="~/css/site.css" />
+
+<div class="shadow">
+    <main class="">
+        @* header *@
+        <header class="header-form p-3 text-center">
+            <div class="img-topo">
+                <img src="~/img/cps-logo.png" class="cps-inicio" alt="">
+                <img src="~/img/logo_fatec_cor.png" width="190" height="100" class="mx-auto logo-fatec"
+                    alt="logo fatec">
+                <img src="~/img/governosp-logo.png" alt="">
+            </div>
+            <h2 class="font">Requerimento de Passe Livre Escolar EMTU/SPTRANS</h2>
+        </header>
+
+        <div class="fundo-form p-5">
+            @* formulario passe livre *@
+            <div>
+                <form asp-controller="Home" asp-action="Index" method="post">
+
+                    @* dados pessoais  *@
+                    <h3 class="title-form ">Dados Pessoais</h3>
+                    <hr>
+
+                    <div class="row p-2">
+                        <div class="col-md-6">
+                            <label for="nome">Nome:</label>
+                            <input type="text" class="form-control" placeholder="Insira o seu nome completo">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" placeholder="Insira o seu e-mail">
+                        </div>
+
+
+                        <div class="col-md-6 pt-4">
+                            <label for="nome-mae">Nome da Mãe</label>
+                            <input type="text" class="form-control" placeholder="Insira o nome completo da sua mãe">
+                        </div>
+                        <div class="col-md-3 pt-4">
+                            <label for="rg">RG</label>
+                            <input type="text" class="form-control" placeholder="__-___-___-_">
+                        </div>
+                        <div class="col-md-3 pt-4">
+                            <label for="data-expedicao">Data de Expedição</label>
+                            <input type="date" name="" class="form-control" id="">
+                        </div>
+
+
+                        <div class="col-md-3 pt-4">
+                            <label for="data-nascimento">Data de Nascimento</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-md-3 pt-4">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" class="form-control" placeholder="(__)_____-____">
+                        </div>
+                        <div class="col-md-3 pt-4">
+                            <label for="cpf">CPF:</label>
+                            <input type="text" class="form-control" placeholder="___-___-___-__">
+                        </div>
+
+                    </div>
+
+                    @* endereço  *@
+                    <h3 class="title-form pt-5 ">Endereço</h3>
+                    <hr>
+
+                    <div class="row p-2">
+                        <div class="col-md-6">
+                            <label for="rua">Endereço Residencial</label>
+                            <input type="text" placeholder="Insira o seu endereço" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="rua">CEP</label>
+                            <input type="text" placeholder="_____-___" class="form-control">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="rua">Nº</label>
+                            <input type="text" placeholder="Insira o Nº da sua residência" class="form-control">
+                        </div>
+                        
+                    </div>
+
+                    @* dados acadêmicos  *@
+                    <h3 class="title-form pt-5 ">Dados Acadêmicos</h3>
+                    <hr>
+
+                    <div class="row p-2">
+                        <div class="col-md-4">
+                            <label for="curso">Curso</label>
+                            <select name="" id="" class="form-select">
+                                <option value=" ">Selecione um Curso</option>
+                                <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                                <option value="ce">Comércio Exterior</option>
+                                <option value="gpi">Gestão da Produção Industrial</option>
+                                <option value="ge">Gestão Empresarial EAD</option>
+                                <option value="log">Logística</option>
+                                <option value="logaer">Logística Aeroportuária</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="semestre">Semestre/Período</label>
+                            <select name="" id="" class="form-select">
+                                <option value=" ">Selecione o seu Semestre</option>
+                                <option value="1">1º Semestre</option>
+                                <option value="2">2º Semestre</option>
+                                <option value="3">3º Semestre</option>
+                                <option value="4">4º Semestre</option>
+                                <option value="5">5º Semestre</option>
+                                <option value="6">6º Semestre</option>
+                                <option value="7">7º Semestre</option>
+                                <option value="8">8º Semestre</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="ra">RA</label>
+                            <input type="text" class="form-control" placeholder="Insira o seu RA">
+                        </div>
+                        <div class="col-md-6 pt-4">
+                            <label for="tipo-passe">Selecione o tipo de passe:</label>
+                            <div class="form-check">
+                                <input type="radio" name="tipo-passe" id="emtu">
+                                <label class="form-check-label" for="emtu" >EMTU</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="tipo-passe" id="sptrans">
+                                <label class="form-check-label" for="sptrans" name="tipo-passe">SPTRANS</label>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </form>
+
+                <button class="btn m-2">
+                    Enviar
+                </button>
+            </div>
+
+        </div>
+
+</div>
+</main>
+</div>
